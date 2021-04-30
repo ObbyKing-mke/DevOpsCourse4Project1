@@ -6,6 +6,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class ReviewAnalyserApplicationTests {
+	
+	private ReviewAnalyserApplication analyser = new ReviewAnalyserApplication();
 
 	@Test
 	public void testWordCount() {
