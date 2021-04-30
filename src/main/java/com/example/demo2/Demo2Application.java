@@ -16,7 +16,7 @@ public class ReviewAnalyserApplication {
 	}
 
 	public static void main(String[] args){
-		SpringApplication.run(ReviewAnalyserApplication.class, args)
+		SpringApplication.run(ReviewAnalyserApplication.class, args);
 	}
 
 }
