@@ -1,4 +1,4 @@
-package com.example.demo2;
+package com.example.demo2.ReviewAnalyser;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
