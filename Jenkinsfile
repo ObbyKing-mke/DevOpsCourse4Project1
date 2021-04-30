@@ -20,6 +20,14 @@ pipeline {
 				sourcePattern: 'src/main/java',
 				exclusionPattern: 'src/test*'
 			])
+            step([$class: 'deploy',
+                    tomcat8: [
+                        url: 'http://10.155.73.37:8080',
+                        credentialsId: 'ObbyKing-mke'
+                    ],
+                    war: "**/*.war",
+                    contextPath: "devops"
+            ])
 		}
 	}	
 }
